@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+form {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #555;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-weight: 500;
+}
+
+#note {
+    display: block;
+    color: #666;
+    font-weight: 500;
+    font-size: small;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#shareable-container {
+    display: none;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #007bff; /* Blue heading */
+    font-weight: bold;
+}
+
+/* Additional Styling to incorporate more blue accents */
+.form-section {
+    border-bottom: 1px solid #007bff; /* Light blue border */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.resume-section {
+    border-bottom: 1px solid #007bff; /* Light blue border */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
